@@ -1,0 +1,407 @@
+Types of languages ? 
+    C , C++ , Java , Python , 
+
+
+    H.L : User :  
+    L.L
+    M.L
+
+
+
+  printf Hi : ENG : USER 
+
+
+
+
+  ---------------------------------------------
+  Binary 
+
+
+
+  programming 
+
+---------------------------------------------
+
+C : TC 
+
+            T : Turbo 
+            C : compiler 
+
+            BCC 
+
+
+            GCC 
+
+
+VS : text editor --> compiler ---> GCC --> 
+
+
+VS : .c , .cpp , .java 
+        .html .css 
+
+
+
+---------------------------------------------------------------
+
+
+#include<stdio.h>
+#include<conio.h> 
+
+
+
+void main(){
+
+    //data type 
+    //variable---- data name in which we can store the values.  
+
+    int a,b; //number -> whole numbers only 20 30 50 12 
+    float x; //number -> fraction part , decimal 
+    char name;//character -> single character 
+    
+
+
+    clrscr();
+
+    printf("Enter the number");
+    scanf("%d%d",&a,&b);
+
+
+    getch();
+}
+---------------------------------------------------------------
+
+
+
+char  : single character   : 1 Byte  : %c
+
+int   : number -> whole digit : 2 Byte  : %d
+long  : number -> whole digit : 4 Byte  : %ld  
+
+float  : number -> fraction , decimal , REAL  : 4 Byte  :f  
+double : number -> fraction , decimal , REAL  : 8 Byte 
+
+
+computer --> memory --> hard disk --> ram 
+
+
+Storage --> 
+Ram --> main memory --> execute 
+HDD --> secondary --> store 
+
+
+bit 
+byte = 8bit  
+KB   = 1024Bbyte  
+MB   = 1024KB 
+GB   = 1024MB 
+TB   = 1024GB 
+
+
+
+
+
+int a = 10; //unsigned 
+
+int a = -10;//signed  
+
+
+
+int -> signed
+
+int -> unsigned 
+
+
+
+signed int a; //     %d 
+unsigned int a; //   %u 
+
+
+int a; // signed int a ;  { 50% neg  50% positive  }
+a = -10;
+
+2 byte -> 16bits -> 2^16 -> 65536
+
+-32768---0---32767
+
+-32768 -32767 -------0--1-2-3-----32767
+
+unsigned int a; // {100% positive }
+
+0--1-2-3-----32767------65535 
+
+
+float  : 4
+double : 8 
+long double : 10 
+
+------------------------------------------------------------------------------------
+
+
+
+
+*******
+*     *
+*     *
+******
+*
+*  * 
+*    *
+*      * 
+
+
+
+Question : using one printf you have to print your first character of name. 
+
+***********
+    *
+    *
+    *
+    *
+
+
+printf("***********\n    *\n    *\n    *\n    *");
+
+
+*********
+*       *
+*       *
+*********
+*
+*
+*
+*
+
+R 
+A 
+J 
+
+
+*************
+      *
+      *
+      *
+      *
+*     *
+*     *
+  * *
+
+
+------------------------------------------------------------------------------------------
+
+conditional statement :- 
+
+    if ..... 
+    if...else 
+    nested if 
+    else if lader 
+
+
+
+    if( condition ){
+
+    }
+------------------------------------------------------------------------------------------
+
+1) 
+    USING IF ONLY 
+    take age and gender from the user to check for vote eligiblity. 
+    age 18+ 
+    gender m 
+        elgible 
+
+    age 21+
+    gender f 
+        elgible
+
+    not elgible 
+
+
+    age -> num -> int 
+    gender -> m /  f  -> char 
+
+
+    char -> single character   =>  R 
+
+    int  -> num --> 10 20 30 
+
+    float -> num --> 10.20 30 20.30 
+
+
+
+2)  USING if only 
+
+    take number from the user and print its good or bad 
+    *) even and divisble by 9  its good 
+
+
+Enter number 
+27
+Bad 
+
+Enter number 
+20
+Bad 
+
+Enter number 
+18
+Good 
+--------------------------------------------------------------------------------
+
+
+Calculator :- 
+
+    data type 
+    variable 
+    printf
+    scanf 
+
+
+read two numbers from the users 
+
+perform addition 
+
+print addition 
+
+subtraction
+multiplication
+division 
+
+--------------------------------------------------------------------------------
+currency convertor :- 
+
+
+Enter the INR Amount
+10000
+
+
+USD : 105 {94}
+
+--------------------------------------------------------------------------------
+
+1 USD -> 94 RS 
+10000  ? 
+
+10000/94 => USD 
+
+
+-----------------------------------------------------------
+1 Dollar => 94
+100 Dollar => 9400
+1000 Dollar => 94000
+
+
+Enter the Dollar 
+10
+940 RS 
+
+Enter the Dollar 
+100
+9400
+
+-----------------------------------------------------------
+
+Operators : 
+
+1) Arithmetic Operators 
+    +  -  /  * %
+
+
+    a = 10 
+    b = 2 
+
+    c = a + b -> 12
+    c = a - b -> 8
+    c = a * b -> 20
+    c = a / b -> 5  
+
+
+    % => modulo Operator => remainder 
+
+    17%2 => 1 
+
+    35%7 => 0 
+
+
+    a = 10 
+    b = 5
+    c = 3 
+
+    ans  = a + b * c //  25 
+
+    ans = a + b + c * a - b //  40        
+
+
+    priority : 
+    ( )
+    * / 
+    + -
+
+    ans = a * b /  c // first multiplication and then division 
+    ans = a / b * c  // first division and then multiplication 
+
+    a = 10 
+    b = 5
+    c = 3 
+    ans = a + b * c + a / b // 27
+
+    ans = a * b * c + a + b / b + a * b // 211
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
