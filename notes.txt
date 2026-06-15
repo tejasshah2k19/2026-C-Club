@@ -346,9 +346,40 @@ Operators :
 
     ans = a * b * c + a + b / b + a * b // 211
                
+---------------------------------------------------------------------------------------------
 
+2) Relational Operator 
 
+    >    compare two variable   a > b => 
+    <    compare two variable   a < b  => 
+    >=
+    <=
+    ==  { comparison Operator }
+    != 
 
+Question: 
+        take marks of three subject from user. calculate total of it. 
+
+        subject marsk 35 <   :  not eligible 
+        total marsk  < 110   :  not eligible 
+
+        Enter marks of three subject 
+        30
+        100
+        100
+        Not elgible 
+
+        Enter marks of three subject 
+        100
+        100
+        100
+        
+        Enter marks of three subject 
+        35
+        35
+        100
+       
+       
 
 
 
