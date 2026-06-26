@@ -570,7 +570,106 @@ int main() {
     return 0;
 }
 
----------------------------------------
+----------------------------------------------------------------------------
+
+# Tax Calc 
+read income from the user and find out the total tax payment for user. 
+tax slab 
+2,50,000 No Tax 
+2.50+ to 5Lac 5% of income 
+5+ to 10L 10% of income 
+10L+ to 25L 15% of income 
+25L+  30% of income 
+
+
+
+Enter the income 
+200000 
+Income : 200000
+Tax    : 0
+
+
+Enter the income 
+400000 
+Income : 400000
+Tax    : 20000 
+
+Enter the income 
+3000000
+Income : 3000000
+Tax    : 750000 
+
+
+
+
+int main(){
+
+    int income; 
+    int tax; 
+
+    printf("Enter your income");
+    scanf("%d",&income); 
+
+    if( income <= 250000){
+        tax = 0; 
+    }
+    else if(income <= 500000 ){
+        tax = (income * 5 )/100; 
+    }else if(income <= 1000000){
+        tax = (income * 10 )/100;   
+        //tax = income * 0.10 ; 
+    }else if(income <= 2500000){
+        tax = (income * 15 )/100;   
+    }else{
+            tax = (income * 30 )/100;   
+    }
+
+    printf("\nIncome : %d",income);
+    printf("\nTax    : %d",tax); 
+
+
+}
+
+-------------------------------------------------------
+
+Enter your Monthly salary  : 200000 
+
+Gross Income  : 2400000 
+Tax Slab      : 15% 
+Tax Amount    : 360000
+Net Income    : 2040000
+
+--------------------------------------------------------
+
+Loop => 
+        repeat 
+
+3 types of loop we have 
+
+1)  for 
+2)
+3)
+
+
+syntax : for 
+
+    for(start ; condition ; direction - inc dec )
+
+
+    start : 1 
+    increment
+    end   : 100 
+
+
+
+    for(i=1; i<= 100 ; i++){
+        printf(" Royal ");
+    }
+
+
+
+
+
 
 
 
